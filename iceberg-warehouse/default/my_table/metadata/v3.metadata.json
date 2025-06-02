@@ -1,0 +1,107 @@
+{
+  "format-version" : 2,
+  "table-uuid" : "f2a52abe-f908-4452-9cda-bde1fda7c000",
+  "location" : "/Users/vidhikavasani/git-data-engineering/apache-iceberg/iceberg-warehouse/default/my_table",
+  "last-sequence-number" : 2,
+  "last-updated-ms" : 1748827641409,
+  "last-column-id" : 2,
+  "current-schema-id" : 0,
+  "schemas" : [ {
+    "type" : "struct",
+    "schema-id" : 0,
+    "fields" : [ {
+      "id" : 1,
+      "name" : "id",
+      "required" : false,
+      "type" : "int"
+    }, {
+      "id" : 2,
+      "name" : "name",
+      "required" : false,
+      "type" : "string"
+    } ]
+  } ],
+  "default-spec-id" : 0,
+  "partition-specs" : [ {
+    "spec-id" : 0,
+    "fields" : [ ]
+  } ],
+  "last-partition-id" : 999,
+  "default-sort-order-id" : 0,
+  "sort-orders" : [ {
+    "order-id" : 0,
+    "fields" : [ ]
+  } ],
+  "properties" : {
+    "owner" : "vidhikavasani",
+    "write.parquet.compression-codec" : "zstd"
+  },
+  "current-snapshot-id" : 878031924727381885,
+  "refs" : {
+    "main" : {
+      "snapshot-id" : 878031924727381885,
+      "type" : "branch"
+    }
+  },
+  "snapshots" : [ {
+    "sequence-number" : 1,
+    "snapshot-id" : 1235670855202114757,
+    "timestamp-ms" : 1748827639736,
+    "summary" : {
+      "operation" : "append",
+      "spark.app.id" : "local-1748827635989",
+      "added-data-files" : "2",
+      "added-records" : "2",
+      "added-files-size" : "1236",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "1236",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/vidhikavasani/git-data-engineering/apache-iceberg/iceberg-warehouse/default/my_table/metadata/snap-1235670855202114757-1-9d63cb82-400f-44a0-9f92-4359a292807c.avro",
+    "schema-id" : 0
+  }, {
+    "sequence-number" : 2,
+    "snapshot-id" : 878031924727381885,
+    "parent-snapshot-id" : 1235670855202114757,
+    "timestamp-ms" : 1748827641409,
+    "summary" : {
+      "operation" : "overwrite",
+      "spark.app.id" : "local-1748827635989",
+      "added-data-files" : "1",
+      "deleted-data-files" : "1",
+      "added-records" : "1",
+      "deleted-records" : "1",
+      "added-files-size" : "642",
+      "removed-files-size" : "625",
+      "changed-partition-count" : "1",
+      "total-records" : "2",
+      "total-files-size" : "1253",
+      "total-data-files" : "2",
+      "total-delete-files" : "0",
+      "total-position-deletes" : "0",
+      "total-equality-deletes" : "0"
+    },
+    "manifest-list" : "/Users/vidhikavasani/git-data-engineering/apache-iceberg/iceberg-warehouse/default/my_table/metadata/snap-878031924727381885-1-91245ab6-3050-49d8-aa34-c2ed9bade3cc.avro",
+    "schema-id" : 0
+  } ],
+  "statistics" : [ ],
+  "partition-statistics" : [ ],
+  "snapshot-log" : [ {
+    "timestamp-ms" : 1748827639736,
+    "snapshot-id" : 1235670855202114757
+  }, {
+    "timestamp-ms" : 1748827641409,
+    "snapshot-id" : 878031924727381885
+  } ],
+  "metadata-log" : [ {
+    "timestamp-ms" : 1748827637736,
+    "metadata-file" : "/Users/vidhikavasani/git-data-engineering/apache-iceberg/iceberg-warehouse/default/my_table/metadata/v1.metadata.json"
+  }, {
+    "timestamp-ms" : 1748827639736,
+    "metadata-file" : "/Users/vidhikavasani/git-data-engineering/apache-iceberg/iceberg-warehouse/default/my_table/metadata/v2.metadata.json"
+  } ]
+}
