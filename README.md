@@ -9,8 +9,8 @@
 Steps:
 
 1) Import this repo in your PyCharm
-2) Set python interpreter version for this project to 3.9
+2) Set python interpreter version for this project to 3.9 or to any supported version
 3) Install pyspark for your project from settings -> select project -> python interpreter -> click (+) -> search for pyspark and install
 4) Set iceberg warehouse to your local directory by changing ICEBERG_WAREHOUSE variable value
-5) Set iceberg jar optionally by changing ICEBERG_JAR variable value
+5) Set iceberg jar optionally by changing ICEBERG_JAR variable value. You may need to change jar version in future.
 6) Right click and run python files under src directory
